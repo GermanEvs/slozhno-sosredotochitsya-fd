@@ -1,0 +1,1 @@
+git@github.com:GermanEvs/slozhno-sosredotochitsya-fd.git
