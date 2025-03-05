@@ -13,8 +13,11 @@
   --content-color:#353430;
   --accent-color: #ff8dcb;
   --focus-color: #ffc2e6;
-  --bg-image-cover: url("../images/cover-image-light.png");
-}
+  --bg-image-cover: url("../images/cover-image-light.png");}
+
+
+
+
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -26,10 +29,8 @@
     --content-color:#353430;
     --accent-color: #ff8dcb;
     --focus-color: #ffc2e6;
-    --bg-image-cover: url("../images/cover-image-light.png");
-  }
-}
+    --bg-image-cover: url("../images/cover-image-light.png");}
 
-.header__rec {
-  display: none;
-}
+  }
+
+
