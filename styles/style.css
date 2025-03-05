@@ -82,6 +82,7 @@
   color: var(--button-color, #ff0070);
   padding: 0 13px;
   text-transform: lowercase;
+  cursor: pointer;
 }
 
 .header__theme-menu-button:hover {
@@ -99,6 +100,10 @@
 
 .header__theme-menu-button:active {
   border: 1px solid var(--button-color, #ff0070);
+}
+
+.header__theme-menu-button_active {
+  pointer-events: none;
 }
 
 .header__subtitle {
@@ -176,7 +181,6 @@
 @media (width >=1024px) {
   .header {
     min-height: 768px;
-    height: 100vh;
   }
 
   .header__theme-menu {
@@ -298,7 +302,6 @@
 
 .article__picture {
   display: grid;
-
   gap: 10px;
 }
 
@@ -376,7 +379,6 @@
 @media (width>=768px) {
   .footer {
     min-height: 1024px;
-    height: 100vh;
     justify-content: center;
     margin-block-start: 0;
   }
@@ -385,7 +387,6 @@
 @media (width >=1024px) {
   .footer {
     min-height: 768px;
-    height: 100vh;
   }
 }
 
