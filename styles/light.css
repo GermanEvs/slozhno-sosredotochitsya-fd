@@ -14,6 +14,10 @@
   display: none;
 }
 
+:root.theme-dark .header__rec {
+  display: block;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     --bg-color: #fff1f7;
@@ -25,8 +29,6 @@
     --accent-color: #ff8dcb;
     --focus-color: #ffc2e6;
     --bg-image-cover: url("../images/cover-image-light.png");
-  }
-  .header__rec {
-    display: none;
-  }
-}
+  }.header__rec {
+    display: none;}}
+  
