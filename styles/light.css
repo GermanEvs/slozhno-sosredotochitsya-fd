@@ -10,6 +10,10 @@
   --bg-image-cover: url("../images/cover-image-light.png");
 }
 
+:root.theme-light .header__rec {
+  display: none;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     --bg-color: #fff1f7;

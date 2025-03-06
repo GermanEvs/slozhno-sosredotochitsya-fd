@@ -14,9 +14,6 @@
   --font-weight-regular: 400;
   --font-weight-bold: 700;
 }
-.header__rec {
-  display: inline;
-}
 
 @media (width >=768px) {
   :root {
